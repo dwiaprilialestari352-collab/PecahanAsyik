@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(149, 239, 240);
+
+}
+
+.judul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 4px solid rgb(79, 77, 58);
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;/
+}
+
+.materi {
+    background-color: rgb(251, 198, 163);
+    border-radius: 20px;
+    color: rgb(5, 2, 2);
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    /*ini tu bikin ada bayangannya */
+}
+
+.contoh{
+    display: flex;              /* bikin sejajar */
+    justify-content: center;    /* posisi tengah */
+    gap: 50px;                  /* jarak antar contoh */
+    margin-top: 30px;
+}
+.contoh1 {
+    background-color: rgb(251, 198, 163);
+    border-radius: 20px;
+    color: rgb(5, 2, 2);
+    border-radius: 20px;
+    padding: 6px 9px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    /*ini tu bikin ada bayangannya */
+}
+
+.pecahan {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tombol{
+    text-align: center;
+}

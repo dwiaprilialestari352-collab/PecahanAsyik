@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(149, 239, 240);
+    font: Arial, sans-serif;
+}
+
+.opening {
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+}
+
+.header {
+    display: flex; /*bikin isi header sejajar*/
+    align-items: center;
+    gap: 299px; /*jarak antara judul & menu */
+    padding: 5px;
+    background-color: rgba(14, 136, 52, 0.912);
+    color: white;
+    border-radius: 60px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2); /*ini tu bikin ada bayangannya */
+}
+
+.logo {
+    margin: 0;
+    height: 95px;
+   background-color: white;
+    border-radius: 60px;
+    box-shadow: 0 10px 5px rgb(83, 69, 69); /*ini tu bikin ada bayangannya */
+}
+.menu-nativigasi li {
+    display: inline-block; /*biar horizontal*/
+    position: relative;
+}
+
+.menu-nativigasi li a {
+    padding: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: green;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    box-shadow: 0 10px 5px rgba(138, 47, 47, 0.2); /*biar ada bayangannya*/
+}
+
+/* dropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+}
+
+.menu-nativigasi:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    color: black;
+}

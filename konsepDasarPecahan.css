@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(149, 239, 240);
+}
+
+.judul {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(79, 77, 58);
+    padding: 10px;
+    background-color: rgb(161, 220, 240);
+    border-radius: 8px;/
+}
+
+.materi {
+    border: rgb(69, 4, 4);
+    padding: auto;
+    background-color: white;
+    border-radius: 8px;
+}
+.gambar {
+    float: left; margin: auto;
+    height: 130px;
+    position: relative;
+    top: -25px;
+}
+
+.pecahan {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.tombol{
+    text-align: center;
+}

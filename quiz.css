@@ -1,0 +1,68 @@
+.pecahan {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    vertical-align: middle;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: rgb(149, 239, 240);
+
+}
+
+.judul1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 4px solid rgb(4, 1, 82);
+    border-radius: 8px;
+    background-color: rgb(206, 203, 238);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);;
+}
+
+.judul {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border: 3px solid rgb(79, 77, 58);
+    border-radius: 8px;
+}
+
+.latihan {
+    display: flex;
+    /* bikin sejajar */
+    justify-content: center;
+    /* posisi tengah */
+    gap: 50px;
+    /* jarak antar contoh */
+    margin-top: 30px;
+}
+
+.materi {
+    background-color: rgb(246, 227, 197);
+    border-radius: 20px;
+    color: rgb(5, 2, 2);
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    /*ini tu bikin ada bayangannya */
+}
+
+.materi1 {
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(5, 2, 2);
+    border-radius: 20px;
+    padding: 5px;
+    gap: 50px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    /*ini tu bikin ada bayangannya */
+}
+
+.tombol {
+    text-align: center;
+}
